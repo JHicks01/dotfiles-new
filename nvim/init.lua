@@ -37,6 +37,7 @@ vim.opt.scrolloff = 10
 vim.opt.clipboard = 'unnamedplus'
 vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
+vim.opt.completeopt = "menu,menuone,noinsert,popup"
 
 require('plugins')
 require('keymap')
